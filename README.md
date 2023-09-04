@@ -22,7 +22,7 @@ There are many ways to get Node installed. Choose whichever way works best for y
 
 ## Download dependencies
 
-Now you should be able to open this folder in IntelliJ. It should automatically recognize the Java Maven project and download any dependencies.
+Now you should be able to open this folder in IntelliJ. It should automatically recognize the Java Maven project and download any dependencies. **Wait for the 'Importing Maven projects' progress bar at the bottom to be finished.**
 
 For the Node dependecies, you have to open a terminal in this folder and run:
 
@@ -30,5 +30,14 @@ For the Node dependecies, you have to open a terminal in this folder and run:
 npm install
 ```
 
+_Note: you can click the green arrow right here in the README if IntelliJ shows it._
+
 ## Check if tests run
 
+- At the top-right of the IntelliJ window, select the `All Tests` run configuration and click on the play icon. _Note: you can click the green arrow right here in the README if IntelliJ shows it._
+
+A `sample` test of a simple `sum` function should run for both TypeScript and Java. Make sure all are green.
+
+If this works, you're all set. If for any reason you can't get it to work, don't worry. During the workshop you'll work in pairs again, so big chance your partner already has a working setup.
+
+Now all you have to do is look forward to the workshop!
