@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="All Tests (Community)" type="CompoundRunConfigurationType">
+    <toRun name="All Java Tests" type="JUnit" />
+    <toRun name="All TypeScript Tests (in terminal)" type="ShConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>
