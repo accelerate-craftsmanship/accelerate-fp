@@ -36,9 +36,10 @@ _Note: you can click the green arrow right here in the README if IntelliJ shows 
 
 If you have IntelliJ Ultimate, you can run both the Java and TypeScript tests from there. If you have IntelliJ Community, you can only run the Java tests there. For the TypeScript tests you can run them from the terminal.
 
-- **IntelliJ Ultimate:** At the top-right of the IntelliJ window, select the `All Tests` run configuration and click on the play icon. _Note: you can click the green arrow right here in the README if IntelliJ shows it._
-- **IntelliJ Community edition:** At the top-right of the IntelliJ window, select the `All Java Tests` run configuration and click on the play icon. _Note: you can click the green arrow right here in the README if IntelliJ shows it._
-- **IntelliJ Community edition:** At the top-right of the IntelliJ window, select the `All Java Tests` run configuration and click on the play icon. _Note: you can click the green arrow right here in the README if IntelliJ shows it._
+- **IntelliJ Ultimate:** At the top-right of the IntelliJ window, select the `All Tests` run configuration and click on the play icon. _Note: you can click the green arrow right here in the README if IntelliJ shows it._ This will run both Java and TypeScript tests.
+- **IntelliJ Community edition:** At the top-right of the IntelliJ window, select the `All Java Tests` run configuration and click on the play icon. _Note: you can click the green arrow right here in the README if IntelliJ shows it._ This will run only Java tests.
+- **VS Code:** You can install the [Vitest](https://marketplace.visualstudio.com/items?itemName=ZixuanChen.vitest-explorer) extension, or open the terminal an 
+At the top-right of the IntelliJ window, select the `All Java Tests` run configuration and click on the play icon. _Note: you can click the green arrow right here in the README if IntelliJ shows it._
 
 A `sample` test of a simple `sum` function should run for both TypeScript and Java. Make sure all are green.
 
