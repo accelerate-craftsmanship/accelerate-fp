@@ -20,6 +20,14 @@ There are many ways to get Node installed. Choose whichever way works best for y
 - You can download a [Node 18 Installer](https://nodejs.org/en/download)
 - Or you can [use NVM](https://github.com/nvm-sh/nvm#installation-and-update), this project has a `.nvmrc` file, so if you have nvm you only have to run the `nvm -i` command in this folder.
 
+## Clone the project
+
+In IntelliJ, use `New project from version control` to open this repository or clone it using the terminal:
+
+```bash
+git clone https://github.com/accelerate-craftsmanship/accelerate-fp.git
+```
+
 ## Download dependencies
 
 Now you should be able to open this folder in IntelliJ. It should automatically recognize the Java Maven project and download any dependencies. **Wait for the 'Importing Maven projects' progress bar at the bottom to be finished.**
