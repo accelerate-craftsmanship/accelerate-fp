@@ -36,7 +36,7 @@ _Note: you can click the green arrow right here in the README if IntelliJ shows 
 
 If you have IntelliJ Ultimate, you can run both the Java and TypeScript tests from there. If you have IntelliJ Community, you can only run the Java tests there. For the TypeScript tests you can run them from the terminal.
 
-- **IntelliJ Ultimate:** At the top-right of the IntelliJ window, select the `All Tests` run configuration and click on the play icon. This will run both Java and TypeScript tests. _Note: you can also click the green arrow right here in the README if IntelliJ shows it._
+- **IntelliJ Ultimate:** At the top-right of the IntelliJ window, select the `All Tests (Ultimate)` run configuration and click on the play icon. This will run both Java and TypeScript tests. _Note: you can also click the green arrow right here in the README if IntelliJ shows it._
 
 - **IntelliJ Community Edition:** At the top-right of the IntelliJ window, select the `All Tests (Community)` run configuration and click on the play icon. This will run both Java and TypeScript tests. _Note: you can also click the green arrow right here in the README if IntelliJ shows it._
 

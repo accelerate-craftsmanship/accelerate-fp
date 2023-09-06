@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="All Tests" type="CompoundRunConfigurationType">
+  <configuration default="false" name="All Tests (Ultimate)" type="CompoundRunConfigurationType">
     <toRun name="All Java Tests" type="JUnit" />
     <toRun name="All TypeScript Tests" type="JavaScriptTestRunnerVitest" />
     <method v="2" />
