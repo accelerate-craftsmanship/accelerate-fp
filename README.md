@@ -10,7 +10,7 @@ TLDR: Install **IntelliJ Community Edition, Java 17 and Node 18**
 
 ## Install IntelliJ & Java 17
 
-- Download and install the [Community Edition of IntelliJ](https://www.jetbrains.com/idea/download/).
+- Download and install the [Community Edition of IntelliJ](https://www.jetbrains.com/idea/download/). If you have an IntelliJ Ultimate license, use Ultimate.
 - You can then [use IntelliJ to download Java 17](https://www.jetbrains.com/idea/guide/tips/download-jdk/).
 
 ## Install Node 18
@@ -24,7 +24,7 @@ There are many ways to get Node installed. Choose whichever way works best for y
 
 Now you should be able to open this folder in IntelliJ. It should automatically recognize the Java Maven project and download any dependencies. **Wait for the 'Importing Maven projects' progress bar at the bottom to be finished.**
 
-For the Node dependecies, you have to open a terminal in this folder and run:
+For the NPM dependencies, you have to open a terminal in this folder and run:
 
 ```bash
 npm install
@@ -34,7 +34,11 @@ _Note: you can click the green arrow right here in the README if IntelliJ shows 
 
 ## Check if tests run
 
-- At the top-right of the IntelliJ window, select the `All Tests` run configuration and click on the play icon. _Note: you can click the green arrow right here in the README if IntelliJ shows it._
+If you have IntelliJ Ultimate, you can run both the Java and TypeScript tests from there. If you have IntelliJ Community, you can only run the Java tests there. For the TypeScript tests you can run them from the terminal.
+
+- **IntelliJ Ultimate:** At the top-right of the IntelliJ window, select the `All Tests` run configuration and click on the play icon. _Note: you can click the green arrow right here in the README if IntelliJ shows it._
+- **IntelliJ Community edition:** At the top-right of the IntelliJ window, select the `All Java Tests` run configuration and click on the play icon. _Note: you can click the green arrow right here in the README if IntelliJ shows it._
+- **IntelliJ Community edition:** At the top-right of the IntelliJ window, select the `All Java Tests` run configuration and click on the play icon. _Note: you can click the green arrow right here in the README if IntelliJ shows it._
 
 A `sample` test of a simple `sum` function should run for both TypeScript and Java. Make sure all are green.
 
